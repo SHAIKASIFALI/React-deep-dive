@@ -27,3 +27,7 @@
  const root = ReactDOM.createRoot(document.getElementById('root'));
 
  root.render(parent); // now the js object converts to the html code.. understood by the browser.
+
+ // react will replace all the stuff if anything is written inside the root..
+ // We can also make react work only inside our root app ..
+ // React is just an javascipt ui library because it can simply work on small part of application as well..
